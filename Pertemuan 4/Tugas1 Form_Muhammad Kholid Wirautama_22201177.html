@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Data Karyawan </title>
+    <style></style>
+</head>
+<body>
+    <table>
+    <h1> Data Karyawan </h1>
+        <form>
+            <tr>
+                <td><label> NIK </label> </td>
+                <td>:</td>
+                <td><input type="number">   </td>
+            </tr>
+            <tr>
+                <td><label> Nama karyawan </label></td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label> Tanggal lahir   </label></td>
+                <td>:</td>
+                <td><input type="date" name="tgl" value></td>
+            </tr>
+            <tr>
+                <td><label> Jabatan </label></td>
+                <td>:</td>
+                <td><select>
+                    <option></option>
+                    <option> CS </option>
+                    <option> Kasir </option>
+                    <option> Satpam </option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label> Golongan gaji </label></td>
+                <td>:</td>
+                <td><select>
+                    <option></option>
+                    <option> Rp. 1.000.000 </option>
+                    <option> Rp. 2.000.000 </option>
+                    <option> Rp. 3.000.000 </option>
+                    <option> Lebih dari Rp. 3.000.000 </option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label> Status </label></td>
+                <td>:</td>
+                <td><input type="radio" name="stat"> Menikah
+                    <input type="radio" name="stat"> Duda</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="radio" name="stat"> Single &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="stat"> Janda</td>
+            </tr>
+            
+            <tr>
+                <td><label> Jenis kelamin </label></td>
+                <td>:</td>
+                <td><input type="radio" name="jk"> Laki-laki
+                    <input type="radio" name="jk"> Perempuan</td>
+            </tr>
+            <tr>
+                <td><label> Tanggungan </label></td>
+                <td>:</td>
+                <td><input type="radio" name="beban"> 1 Anak
+                    <input type="radio" name="beban"> 2 Anak
+                    <input type="radio" name="beban"> Lebih dari 2 anak</td>
+            </tr>
+            <tr>
+                <td><label> Keahlian </label></td>
+                <td>:</td>
+                <td><input type="checkbox" name="skill"> Marketing &nbsp;&nbsp;
+                    <input type="checkbox" name="skill"> Akuntan</td>
+            </tr>
+            <tr>
+                <td><label></label></td>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="skill"> Programmer
+                    <input type="checkbox" name="skill"> Support</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input name="cmdkirim" type="submit" value="Submit" /></td>
+                <td><input name="cmdhapus" type="reset" value="Hapus" /></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
